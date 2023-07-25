@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #######################################
-# Shift the coordinates of all vertices of a tessellated solid contained in a GDML file containing only ONE tesselated solid, write the result in a new GDML file.
+# Shift the coordinates of all vertices of all tessellated solids in a GDML file, and write the result in a new GDML file.
 # Arguments:
 #   GDML file to be changed, a path.
 #   GDML file to be written into, a path.
