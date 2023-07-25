@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #######################################
-# Rotate the coordinates of all vertices of a tessellated solid in a GDML file containing only ONE tesselated solid, and write the result in a new GDML file.
+# Rotate the coordinates of all vertices of all tessellated solids in a GDML file, and write the result in a new GDML file.
 # First rotate about the x-axis, then the y-axis, then the z-axis.
 # Arguments:
 #   GDML file to be changed, a path.
