@@ -1,14 +1,14 @@
 #!/bin/bash
 
 #######################################
-# Rotate the coordinates of all vertices of a tessellated solid contained in a GDML file containing only ONE tesselated solid, write the result in a new GDML file.
-# First rotate about the x-axis, then about the y-axis, then about the z-axis.
+# Rotate the coordinates of all vertices of a tessellated solid in a GDML file containing only ONE tesselated solid, and write the result in a new GDML file.
+# First rotate about the x-axis, then the y-axis, then the z-axis.
 # Arguments:
 #   GDML file to be changed, a path.
 #   GDML file to be written into, a path.
-#   phix, the rotation angle about the x-axis (in degree).
-#   phiy, the rotation angle about the x-axis (in degree).
-#   phiz, the rotation angle about the x-axis (in degree).
+#   phix, the rotation angle about the x-axis (in degrees).
+#   phiy, the rotation angle about the y-axis (in degrees).
+#   phiz, the rotation angle about the z-axis (in degrees).
 # Returns
 #   0 if successful, non-zero if fails.
 #######################################
